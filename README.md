@@ -3,7 +3,8 @@
 
 ## CSS通用初始化样式（PC端）
 
-'''
+``` bash
+
 *{word-break:break-all;font-family:"微软雅黑",tahoma,'宋体',Arial,Lucida,Verdana,Helvetica,sans-serif;}
 body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td {margin:0;padding:0;}
 fieldset, img {border:0;}
@@ -31,4 +32,5 @@ img{vertical-align:middle;}
 .fontArial{font-family:Arial,Helvetica,sans-serif;}
 *html{background-image:url(about:blank);background-attachment:fixed;/*修正IE6振动bug*/}
 input:focus,textarea:focus,selects:focus{border-color:#feebd9 !important;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #fecb98;}
-'''
+
+```
