@@ -141,3 +141,28 @@ input:focus,textarea:focus,selects:focus {
 }
 
 ```
+
+# wap端的一些小适配（非绝对）
+
+``` bash
+
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 --> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+  <!-- 设置苹果工具栏颜色 --> 
+  <meta name="HandheldFriendly" content="true" /> 
+  <!-- 针对手持设备优化 --> 
+  <meta name="full-screen" content="yes" /> 
+  <!-- UC强制全屏 --> 
+  <meta name="x5-fullscreen" content="true" /> 
+  <!-- QQ强制全屏 --> 
+  <meta name="msapplication-tap-highlight" content="no" /> 
+  <!-- windows phone 点击无高光 -->
+ </head>
+ <body></body>
+</html>
+
+```
