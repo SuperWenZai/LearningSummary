@@ -1,7 +1,7 @@
 # LearningSummary
 对一些常用的知识做个小小的总结。
 
-## CSS通用初始化样式（PC端）
+## CSS通用初始化样式
 
 ``` bash
 
